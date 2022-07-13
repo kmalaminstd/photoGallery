@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    background: rgb(201, 235, 240);
+    padding: 10px 0;
+}
+
+.gallery{
+    overflow: hidden;
+    display: block;
+   width: 100%;
+}
+
+main h1{
+    text-align: center;
+    margin: 8px 0;
+}
+
+.galleryBox{
+    margin: 8px 8px;
+    width: 32%;
+    padding: 0 8px;
+    background-color: aliceblue;
+    float: left;
+    overflow: hidden;
+}
+
+.galleryTitle{
+    text-align: center;
+    margin: 8px 0;
+}
+
+.galleryDescription{
+    padding: 5px 8px;
+    white-space: wrap;
+}
+
+.galleryImage{
+    width: 100%;
+}
+
+.galleryImage img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.galleryImage img:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.singlePicture{
+    display: none;
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.fullImage{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.crossImg{
+    height: 20px;
+    width: auto;
+    position: absolute;
+    top: 16px;
+    right: -62px;
+}
